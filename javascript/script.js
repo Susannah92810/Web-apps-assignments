@@ -33,3 +33,25 @@ function sum(){
     document.getElementById("sumText").textContent = sum;
 
 }
+
+function ILength(){
+    let numLength = (document.getElementById("lengthInput").value).length;
+    document.getElementById("lengthText").textContent = "The length of the text is: " + numLength;
+
+}
+
+
+function togglePassword(){
+    let password = document.getElementById("passwordInput");
+    if (password.type === "password"){
+        password.type = "text";
+    }
+    else{
+        password.type = "password";
+    }
+}
+
+function changeS(){
+    let changeStuff = document.getElementById("changeText");
+    changeStuff.style.color.#E35335;
+}

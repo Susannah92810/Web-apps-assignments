@@ -1,14 +1,13 @@
 html{
-    text-align: center;
     background-color: #FBCEB1;
 }
 
 h3{
-    text-align: center;
+
     color: #8B4000;
 }
 button{
-    text-align: center;
+    border-radius: 10px;
     background-color: #E35335;
     color: #FFF5EE;
 }
