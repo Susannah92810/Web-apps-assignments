@@ -51,7 +51,22 @@ function togglePassword(){
     }
 }
 
-function changeS(){
-    let changeStuff = document.getElementById("changeText");
-    changeStuff.style.color.#E35335;
-}
+ function changeS(){
+     let changeStuff = document.getElementById("changeText");
+     changeStuff.style.color = "#E35335";
+     changeStuff.style.fontSize = "24px"; 
+     changeStuff.style.fontStyle = "italic";
+     document.getElementById("changeText").value.textContent =  changeStuff; 
+ }
+
+ function hideShow(){
+    let hideS = document.getElementById("hideShowText")
+        if (hideS.hidden === false){
+        hideS.hidden = true;
+    }
+        else{
+        hideS.hidden = false;
+    }
+
+
+ }
