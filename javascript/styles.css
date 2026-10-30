@@ -17,3 +17,17 @@ p{
 .greetingOutput{
      color: #B87333;
 }
+
+.parent-class{
+    display: flex;
+}
+
+.example-class{
+    flex: 1;
+    margin: 20px;
+}
+
+.image-class{
+    flex: 1;
+    margin: 20px;
+}
