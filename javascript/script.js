@@ -61,11 +61,11 @@ function togglePassword(){
 
  function hideShow(){
     let hideS = document.getElementById("hideShowText")
-        if (hideS.hidden === false){
-        hideS.hidden = true;
+        if (hideS.hidden === true){
+        hideS.hidden = false;
     }
         else{
-        hideS.hidden = false;
+        hideS.hidden = true;
     }
 
 
