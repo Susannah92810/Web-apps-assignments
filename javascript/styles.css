@@ -1,32 +1,39 @@
+/* Assigning color to whole page */
 html{
     background-color: #FBCEB1;
 }
-
+/* Assigning color to h3 elements */
 h3{
 
     color: #8B4000;
 }
+/* Styling the buttons */
 button{
     border-radius: 10px;
     background-color: #E35335;
     color: #FFF5EE;
 }
+/* Styling the p elements */
 p{
     color: #B87333;
 }
+/* Styling some more text */
 .greetingOutput{
      color: #B87333;
 }
 
+/* Grid Display */
 .parent-class{
     display: flex;
 }
 
+/* Assigning a class in the grid display*/
 .example-class{
     flex: 1;
     margin: 20px;
 }
 
+/* Assigning a class in the grid display*/
 .image-class{
     flex: 1;
     margin: 20px;
